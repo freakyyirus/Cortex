@@ -38,4 +38,4 @@ next-env.d.ts
 
 # Serwist
 public/sw*
-public/swe-worker*
+public/swe-worker*.git_backup
