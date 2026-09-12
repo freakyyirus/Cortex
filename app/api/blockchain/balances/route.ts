@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { NextRequest, NextResponse } from "next/server";
 import { getEvmBalance, getEvmTokenBalances, normalizeEvmAddress } from "@/app/lib/blockchain/evm";
 import { getSolanaBalance, getSplTokenBalances, getSolanaConnection } from "@/app/lib/blockchain/solana";
