@@ -1,0 +1,25 @@
+{
+  "name": "MonQuest",
+  "short_name": "MonQuest",
+  "description": "AI-powered bounty platform on Solana",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#09090B",
+  "start_url": "/",
+  "scope": "/",
+  "id": "/",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

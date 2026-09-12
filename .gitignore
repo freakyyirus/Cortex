@@ -38,4 +38,16 @@ next-env.d.ts
 
 # Serwist
 public/sw*
-public/swe-worker*.git_backup
+# NOTE: do not commit the generated service worker (`public/sw.js`) or its
+# worker helper; Serwist regenerates them on build.
+
+# local git backups
+.git_backup/
+
+# local dev logs
+*.anvil.log
+.anvil.log
+
+# push scripts (local deployment helpers)
+push_script.sh
+push_to_cortex.sh

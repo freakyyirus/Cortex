@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #09090B;
+    --bg-elevated: #18181B;
+    --bg-overlay: #27272A;
+    --fg: #FAFAFA;
+    --fg-muted: #A1A1AA;
+    --fg-faint: #52525B;
+    --line: #2A2A2D;
+    --line-strong: #3F3F46;
+    --accent: #16A34A;
+  }
+
+  /* base styles = 4-step neutral, tabular numerals on stats */
+  * {
+    @apply border-line;
+  }
+  body {
+    @apply bg-bg text-fg antialiased;
+    color-scheme: dark;
+  }
+  button,
+  [role="button"] {
+    cursor: pointer;
+  }
+  a {
+    @apply text-accent underline-offset-2;
+  }
+  h1, h2, h3, h4 {
+    @apply font-heading tracking-tight;
+  }
+  table { @apply border-collapse; }
+}
+
+@layer components {
+  /* Buttons: 36px min height (h-9), 6px radius */
+  .btn {
+    @apply inline-flex h-9 cursor-pointer items-center justify-center gap-1.5 rounded-[6px] px-3.5 text-sm font-medium transition-colors duration-150 disabled:cursor-not-allowed disabled:opacity-45;
+  }
+  .btn-primary {
+    @apply btn bg-accent font-semibold text-white hover:bg-accent-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent;
+  }
+  .btn-secondary {
+    @apply btn border border-line bg-bg-elevated text-fg hover:border-line-strong hover:bg-bg-overlay;
+  }
+  .btn-ghost {
+    @apply btn border border-transparent bg-transparent text-fg-muted hover:bg-bg-elevated hover:text-fg;
+  }
+  .btn-danger {
+    @apply btn border border-danger/40 bg-transparent text-danger hover:bg-danger/10;
+  }
+
+  /* Inputs: 36px height, 6px radius, faint border */
+  .input,
+  .textarea {
+    @apply w-full rounded-[6px] border border-line bg-bg-elevated px-3 text-sm text-fg placeholder:text-fg-faint transition-colors duration-150 focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/25;
+  }
+  .input {
+    @apply h-9;
+  }
+  .textarea {
+    @apply min-h-[120px] py-2;
+  }
+  .label-utils {
+    @apply mb-1.5 block text-xs font-medium text-fg-muted;
+  }
+
+  /* Cards: dark elevated with faint border, 10px radius */
+  .card {
+    @apply rounded-[10px] border border-line bg-bg-elevated;
+  }
+  .card-hover {
+    @apply card transition-colors duration-150 hover:border-line-strong;
+  }
+
+  /* Tabular numerals on money / stats, per the "numbers feel right" rule */
+  .mono,
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Gradient text helper (green ramp) */
+  .text-gradient {
+    background-image: linear-gradient(100deg, #16a34a 0%, #4ade80 55%, #86efac 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Frosted panel used across the landing page */
+  .glass {
+    background: rgba(24, 24, 27, 0.66);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+  }
+
+  /* Subtle blueprint grid for hero backgrounds */
+  .bg-grid {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, black 40%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, black 40%, transparent 100%);
+  }
+
+  /* Soft green glow ring for cards/buttons on hover */
+  .glow-accent {
+    box-shadow: 0 0 0 1px rgba(22, 163, 74, 0.35), 0 18px 60px -18px rgba(22, 163, 74, 0.45);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-marquee,
+    .animate-float,
+    .animate-pulse-slow,
+    .animate-shine {
+      animation: none !important;
+    }
+  }
+}
