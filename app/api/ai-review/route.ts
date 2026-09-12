@@ -2,23 +2,39 @@ import { NextRequest, NextResponse } from "next/server";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { getSupabaseAdminClient } from "@/app/lib/db";
 
+// Never let Next.js attempt any build-time evaluation/prerender of this route.
+// Supabase + Gemini clients are created lazily inside the handler; env vars are
+// validated at request time so a missing config returns a clean 503 instead of
+// crashing `next build`.
 export const dynamic = "force-dynamic";
+
+const REQUIRED_SERVER_ENV = [
+  "NEXT_PUBLIC_SUPABASE_URL",
+  "SUPABASE_SERVICE_ROLE_KEY",
+  "GOOGLE_GEMINI_API_KEY",
+] as const;
+
+/** Returns the list of required env vars that are missing at request time. */
+const getMissingServerEnv = (): string[] =>
+  REQUIRED_SERVER_ENV.filter((key) => !process.env[key]);
 
 export async function POST(req: NextRequest) {
   try {
-    const supabase = getSupabaseAdminClient();
-    const { bountyId } = await req.json();
-
-    if (!process.env.GOOGLE_GEMINI_API_KEY) {
+    const missing = getMissingServerEnv();
+    if (missing.length > 0) {
       return NextResponse.json(
         {
           error: "AI review not configured",
-          code: "GEMINI_NOT_CONFIGURED",
-          hint: "Set GOOGLE_GEMINI_API_KEY in .env.local (see .env.example).",
+          code: "SERVICE_NOT_CONFIGURED",
+          missingVars: missing,
+          hint: "Set the missing variables in Vercel → Project Settings → Environment Variables (see .env.example). NEXT_PUBLIC_* values must be available at build time.",
         },
-        { status: 500 },
+        { status: 503 },
       );
     }
+
+    const supabase = getSupabaseAdminClient();
+    const { bountyId } = await req.json();
 
     // 1. Verify Bounty
     const { data: bounty, error: bountyError } = await supabase
@@ -48,7 +64,7 @@ export async function POST(req: NextRequest) {
     }
 
     // 3. Prepare Gemini Prompt
-    const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GEMINI_API_KEY);
+    const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GEMINI_API_KEY!);
     const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     const promptParts: any[] = [
