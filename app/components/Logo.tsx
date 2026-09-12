@@ -1,48 +1,117 @@
+"use client";
+
 import type { SVGProps } from "react";
+import { cn } from "@/app/lib/utils";
+import { motion } from "framer-motion";
 
 type LogoProps = SVGProps<SVGSVGElement> & {
   showWordmark?: boolean;
+  className?: string;
+  iconClassName?: string;
+  wordmarkClassName?: string;
 };
 
-export function Logo({ showWordmark = false, ...props }: LogoProps) {
-  const { width = 28, height = 28, ...rest } = props;
+export function Logo({ 
+  showWordmark = false, 
+  className,
+  iconClassName,
+  wordmarkClassName,
+  ...props 
+}: LogoProps) {
   return (
-    <span className="inline-flex items-center gap-2">
-      <svg
-        width={width}
-        height={height}
-        viewBox="0 0 32 32"
+    <span className={cn("inline-flex items-center gap-3", className)}>
+      <motion.svg
+        viewBox="0 0 100 100"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-label="MonQuest"
-        {...rest}
+        className={cn("w-8 h-8 sm:w-10 sm:h-10 drop-shadow-lg", iconClassName)}
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+        {...(props as any)}
       >
         <defs>
-          <linearGradient id="mq-m" x1="6" y1="27" x2="26" y2="5" gradientUnits="userSpaceOnUse">
-            <stop stopColor="#16A34A" />
-            <stop offset="1" stopColor="#15803D" />
+          <linearGradient id="mq-gradient-1" x1="10" y1="90" x2="90" y2="10" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#10B981" />
+            <stop offset="1" stopColor="#059669" />
           </linearGradient>
+          <linearGradient id="mq-gradient-2" x1="10" y1="10" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#34D399" />
+            <stop offset="1" stopColor="#047857" />
+          </linearGradient>
+          <filter id="mq-glow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="6" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+          </filter>
         </defs>
-        <rect x="1" y="1" width="30" height="30" rx="9" fill="#0F0F10" />
-        <rect x="1.5" y="1.5" width="29" height="29" rx="8.5" stroke="#2A2A2D" strokeWidth="1" />
-        <path
-          d="M7 24V11.2L16 20l9-8.8V24"
-          stroke="url(#mq-m)"
-          strokeWidth="3.4"
+
+        {/* Outer glowing ring - subtle pulse */}
+        <motion.circle 
+          cx="50" 
+          cy="50" 
+          r="48" 
+          fill="#022C22" 
+          stroke="url(#mq-gradient-1)" 
+          strokeWidth="2" 
+          animate={{ 
+            opacity: [0.6, 0.9, 0.6],
+            scale: [0.98, 1, 0.98]
+          }}
+          transition={{ 
+            duration: 4, 
+            repeat: Infinity, 
+            ease: "easeInOut" 
+          }}
+        />
+        
+        {/* Dynamic 'M' shape combining a quest marker / chevron - draw in then float */}
+        <motion.path
+          d="M25 70 V35 L50 60 L75 35 V70"
+          stroke="url(#mq-gradient-2)"
+          strokeWidth="12"
           strokeLinecap="round"
           strokeLinejoin="round"
+          filter="url(#mq-glow)"
+          initial={{ pathLength: 0, opacity: 0 }}
+          animate={{ pathLength: 1, opacity: 1 }}
+          transition={{ duration: 1.5, ease: "easeInOut" }}
         />
-        <path
-          d="M23.2 8.2c.1-2.4 2-4.3 4.4-4.4"
-          stroke="#16A34A"
-          strokeWidth="2"
-          strokeLinecap="round"
+
+        {/* Quest / AI dot - floating */}
+        <motion.circle 
+          cx="50" 
+          cy="22" 
+          r="7" 
+          fill="#6EE7B7" 
+          filter="url(#mq-glow)" 
+          initial={{ scale: 0, opacity: 0 }}
+          animate={{ 
+            scale: 1, 
+            opacity: 1,
+            y: [0, -3, 0]
+          }}
+          transition={{
+            scale: { duration: 0.5, delay: 1 },
+            opacity: { duration: 0.5, delay: 1 },
+            y: { duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1.5 }
+          }}
         />
-        <circle cx="28.4" cy="6.4" r="1.6" fill="#34D399" />
-      </svg>
+      </motion.svg>
+      
       {showWordmark && (
-        <span className="text-sm font-semibold tracking-tight text-[#FAFAFA]">MonQuest</span>
+        <motion.span 
+          className={cn(
+            "text-lg sm:text-xl font-extrabold tracking-tighter bg-clip-text text-transparent bg-gradient-to-br from-white via-[#FAFAFA] to-white/40",
+            wordmarkClassName
+          )}
+          initial={{ opacity: 0, x: -10 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          MonQuest
+        </motion.span>
       )}
     </span>
   );
