@@ -1,0 +1,114 @@
+0000000000000000000000000000000000000000 6d84bf347307df51f59c409a424fe53750a678e8 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air.local> 1783166254 +0530	commit (initial): feat: initial commit for Mon-E-Heist with premium Web3 UI
+6d84bf347307df51f59c409a424fe53750a678e8 6d84bf347307df51f59c409a424fe53750a678e8 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air.local> 1783166254 +0530	Branch: renamed refs/heads/main to refs/heads/main
+6d84bf347307df51f59c409a424fe53750a678e8 b387e10f24881a40427e4858f886ff60dd8a0319 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air.local> 1783166336 +0530	commit (amend): feat: initial commit for Mon-E-Heist with premium Web3 UI
+b387e10f24881a40427e4858f886ff60dd8a0319 1570d57b233e1a8afb7061089528e8107aa53737 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air.local> 1783166529 +0530	commit: style: updated create page to use dark glass theme and added demo data to dashboard
+1570d57b233e1a8afb7061089528e8107aa53737 0f554eba35605ca3581055eadd67a8a4848e89be Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air.local> 1783166677 +0530	commit: fix: provide fallback supabase url to prevent build errors
+0f554eba35605ca3581055eadd67a8a4848e89be c0b5e9dcfb988af399ccc52b2bb798654989fd47 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air.local> 1783167263 +0530	commit: chore: upgrade next.js version to patch security vulnerability
+c0b5e9dcfb988af399ccc52b2bb798654989fd47 04cf27fdc6a1aefd07f1bff4c86c4be058e5472f Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air.local> 1783167589 +0530	commit: feat: integrate vercel analytics and speed insights
+04cf27fdc6a1aefd07f1bff4c86c4be058e5472f 6db64efeabe8a7baaf86c94f6ceeb58561796b26 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air.local> 1783168216 +0530	commit: refactor: use lazy initialization for supabase clients
+6db64efeabe8a7baaf86c94f6ceeb58561796b26 053c8f56201556ca633a322d6bd19450d746f8e2 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air.local> 1783168637 +0530	commit: revert: layout analytics
+053c8f56201556ca633a322d6bd19450d746f8e2 9ec23e16dccf11151543e83fe981dbd90225bbee Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air.local> 1783168968 +0530	commit: fix: ensure landing page content is visible
+9ec23e16dccf11151543e83fe981dbd90225bbee f7daa384596a7f4ceb5f8831cfcd97f8e1a2eb04 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192568 +0530	commit: update .anvil.log
+f7daa384596a7f4ceb5f8831cfcd97f8e1a2eb04 62b3794301d37f5c6e4b1aef3d57b2ac8b1e4ecc Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192576 +0530	commit: update .env.example
+62b3794301d37f5c6e4b1aef3d57b2ac8b1e4ecc 5d5776a194b4bb86b09ad2299981cb32297b7dda Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192584 +0530	commit: update PROGRESS.md
+5d5776a194b4bb86b09ad2299981cb32297b7dda f6b7d5f1ae3c16c9d24d43d91d3f22bc57029c95 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192592 +0530	commit: update README.md
+f6b7d5f1ae3c16c9d24d43d91d3f22bc57029c95 a3b2ee181645234f99c50f7959f41d20cb4d18f6 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192600 +0530	commit: update app/api/ai-review/route.ts
+a3b2ee181645234f99c50f7959f41d20cb4d18f6 49a14a588fd75dc33a48ceb83803f34afc100497 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192608 +0530	commit: update app/api/blockchain/balances/route.ts
+49a14a588fd75dc33a48ceb83803f34afc100497 c4901b1b67882bac326cafdcb11167217dd705a1 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192615 +0530	commit: update app/api/bounties/[id]/route.ts
+c4901b1b67882bac326cafdcb11167217dd705a1 95aa0303a373cc1dd12fa44b4dbee58882a30a2f Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192622 +0530	commit: update app/api/bounties/payout/route.ts
+95aa0303a373cc1dd12fa44b4dbee58882a30a2f 2497f80736b121003886fd4e2773737a509f1b06 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192630 +0530	commit: update app/api/bounties/route.ts
+2497f80736b121003886fd4e2773737a509f1b06 a72ddd3969c652b480b899d350943e866d5292d2 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192639 +0530	commit: update app/api/profile/route.ts
+a72ddd3969c652b480b899d350943e866d5292d2 396bb31d4119c4283b400ac73e0a1482830b33dc Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192648 +0530	commit: update app/api/submissions/route.ts
+396bb31d4119c4283b400ac73e0a1482830b33dc e8c8abd2904be1e057106705c522747fe0918d56 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192655 +0530	commit: update app/bounties/[id]/page.tsx
+e8c8abd2904be1e057106705c522747fe0918d56 d0f634da2d885f57f585d7174d3bd2b6feb77419 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192663 +0530	commit: update app/bounties/page.tsx
+d0f634da2d885f57f585d7174d3bd2b6feb77419 f6b9fdba1079a8a3267c708a417f5948abcc0997 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192670 +0530	commit: update app/components/CarbonFeatures.tsx
+f6b9fdba1079a8a3267c708a417f5948abcc0997 17bac16f9ff853a79baa606ff4fbeecda2225153 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192679 +0530	commit: update app/components/CarbonHero.tsx
+17bac16f9ff853a79baa606ff4fbeecda2225153 727be6b6a88d92dd7127cc73b6a31711fb824185 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192686 +0530	commit: update app/components/FaqAccordion.tsx
+727be6b6a88d92dd7127cc73b6a31711fb824185 50532de3e53a473c95cf28bfd9aa9aab8d985c77 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192695 +0530	commit: update app/components/Footer.tsx
+50532de3e53a473c95cf28bfd9aa9aab8d985c77 a6d1de6746644ce8ba5ffc00564cf4ca0b291fef Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192702 +0530	commit: update app/components/Logo.tsx
+a6d1de6746644ce8ba5ffc00564cf4ca0b291fef 51f96418802f3c4dba59b9e767c9590a4add1d54 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192710 +0530	commit: update app/components/Navbar.tsx
+51f96418802f3c4dba59b9e767c9590a4add1d54 091003a17ef4dff8f81d652614ea96905d369879 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192717 +0530	commit: update app/components/Timeline.tsx
+091003a17ef4dff8f81d652614ea96905d369879 c3d6a0174acbd9fad42a6b11ade385f978e7a73a Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192726 +0530	commit: update app/components/UseLoginPrivy.tsx
+c3d6a0174acbd9fad42a6b11ade385f978e7a73a 57066f2d65df08a8d8d237adf46389a51f438d5a Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192734 +0530	commit: update app/components/WalletModal.tsx
+57066f2d65df08a8d8d237adf46389a51f438d5a a97494a3a532000411e42f1cbaff7c10d8f0c30f Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192741 +0530	commit: update app/components/privy-provider.tsx
+a97494a3a532000411e42f1cbaff7c10d8f0c30f 3784d063bd02ef6915f3a3a280e5d7a0d71eccc3 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192749 +0530	commit: update app/components/solana/SolanaWalletProvider.tsx
+3784d063bd02ef6915f3a3a280e5d7a0d71eccc3 5516b9afda8ef33aaa0346e06fcb4cb19d4d8844 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192756 +0530	commit: update app/components/ui/Button.tsx
+5516b9afda8ef33aaa0346e06fcb4cb19d4d8844 5434b0a249d8486b89927176715ffa2616bd099c Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192764 +0530	commit: update app/components/ui/EmptyState.tsx
+5434b0a249d8486b89927176715ffa2616bd099c ce23594208beebb576fde98e02edfba09294373c Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192771 +0530	commit: update app/components/ui/Input.tsx
+ce23594208beebb576fde98e02edfba09294373c 75e589ec95cd3753ec8eddebb1dac992bad42592 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192778 +0530	commit: update app/components/ui/Modal.tsx
+75e589ec95cd3753ec8eddebb1dac992bad42592 c2055cc4afba2c5026ae27859797f85d72d087c4 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192785 +0530	commit: update app/components/ui/Skeleton.tsx
+c2055cc4afba2c5026ae27859797f85d72d087c4 92db723c19642d1c3a3df841ace6c733f64e4345 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192793 +0530	commit: update app/components/ui/StatusPill.tsx
+92db723c19642d1c3a3df841ace6c733f64e4345 3b36b10ee149186c6aca75521c2997094552dabe Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192801 +0530	commit: update app/components/ui/Tabs.tsx
+3b36b10ee149186c6aca75521c2997094552dabe 50bf9a7eed538be682251bc8bbef8c96148e7fe0 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192808 +0530	commit: update app/components/ui/Textarea.tsx
+50bf9a7eed538be682251bc8bbef8c96148e7fe0 22daca1abda05aa435ff85becc058ca309f6c022 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192815 +0530	commit: update app/components/ui/Toast.tsx
+22daca1abda05aa435ff85becc058ca309f6c022 ff8488031a08e07589f1f31dfb95474c66411070 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192823 +0530	commit: update app/components/ui/Tooltip.tsx
+ff8488031a08e07589f1f31dfb95474c66411070 11a4e8d78b744e117cba8b7e7c110f70494ba7d9 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192831 +0530	commit: update app/create/page.tsx
+11a4e8d78b744e117cba8b7e7c110f70494ba7d9 6c1bac5bf100c5bb5eb738983c3166ea3c03db26 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192838 +0530	commit: update app/globals.css
+6c1bac5bf100c5bb5eb738983c3166ea3c03db26 5d10fb3f846bd3047a8a1d12f68abca5bcebedb4 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192845 +0530	commit: update app/hooks/useSolanaWallet.ts
+5d10fb3f846bd3047a8a1d12f68abca5bcebedb4 6048d006438e018aa0500dd8d575f88a15be2e41 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192852 +0530	commit: update app/layout.tsx
+6048d006438e018aa0500dd8d575f88a15be2e41 c69bf717c5ace3870f5eb8258c24688a29a8747d Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192860 +0530	commit: update app/lib/blockchain/btc.ts
+c69bf717c5ace3870f5eb8258c24688a29a8747d b26a669ba2045613f16970351f0a26500621ac93 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192867 +0530	commit: update app/lib/blockchain/config.ts
+b26a669ba2045613f16970351f0a26500621ac93 74b2c2a074a0bf03f1965a5c15e14b68fc5b4579 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192874 +0530	commit: update app/lib/blockchain/evm.ts
+74b2c2a074a0bf03f1965a5c15e14b68fc5b4579 3d247b0678c10d9c3b77610fef3790ab423e96d6 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192881 +0530	commit: update app/lib/blockchain/index.ts
+3d247b0678c10d9c3b77610fef3790ab423e96d6 a303c31818a66efbca7c7b06eb3ab6a5ea17d2e0 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192889 +0530	commit: update app/lib/blockchain/solana.ts
+a303c31818a66efbca7c7b06eb3ab6a5ea17d2e0 bcb98771616bfa01c07030b07f723afc81dcbc55 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192896 +0530	commit: update app/lib/blockchain/types.ts
+bcb98771616bfa01c07030b07f723afc81dcbc55 4423022be70666191530fe37523c25d04117c6b1 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192904 +0530	commit: update app/lib/db.ts
+4423022be70666191530fe37523c25d04117c6b1 cff5d07f34af83d19cfc742aa5e569e97d39125e Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192911 +0530	commit: update app/lib/env.ts
+cff5d07f34af83d19cfc742aa5e569e97d39125e ed9ac19ea54742dcb9004d476decfff3c4348e03 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192919 +0530	commit: update app/lib/payout.ts
+ed9ac19ea54742dcb9004d476decfff3c4348e03 83d032f8f7c0c4adc33b5b27fe07ed3cfda499dc Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192927 +0530	commit: update app/lib/supabase-guard.ts
+83d032f8f7c0c4adc33b5b27fe07ed3cfda499dc 9b2c7698fa80bf79e4befc343d19564841c39a85 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192934 +0530	commit: update app/lib/tokens.ts
+9b2c7698fa80bf79e4befc343d19564841c39a85 863ee241b212b0fb865fbc4e1993e0f8228248bd Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192941 +0530	commit: update app/profile/page.tsx
+863ee241b212b0fb865fbc4e1993e0f8228248bd 385cc51b34e33600001b436965c24753ac75783b Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192949 +0530	commit: update app/wallets/WalletDashboard.tsx
+385cc51b34e33600001b436965c24753ac75783b 256a4190e07265ad5dd66527c4a73254ac23fa4e Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192955 +0530	commit: update app/wallets/page.tsx
+256a4190e07265ad5dd66527c4a73254ac23fa4e 4a72723cd2755ab41d3deaae6e4038113289d68d Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192962 +0530	commit: update briefing/00-overview.md
+4a72723cd2755ab41d3deaae6e4038113289d68d b42d615bf4c110f74b0902cfa595f4276db4dc9f Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192969 +0530	commit: update briefing/01-file-tree.txt
+b42d615bf4c110f74b0902cfa595f4276db4dc9f 449abe68ae4d43734d9d154d1ae0301c209b7a60 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192976 +0530	commit: update briefing/02-package.json.md
+449abe68ae4d43734d9d154d1ae0301c209b7a60 0b3d4c8f0aef107bd926036bf7b7d63b2849b080 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192984 +0530	commit: update briefing/03-key-source.md
+0b3d4c8f0aef107bd926036bf7b7d63b2849b080 4b38c3db9ced3510b695bdea537e0c3ad4655fa0 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192990 +0530	commit: update briefing/04-database.md
+4b38c3db9ced3510b695bdea537e0c3ad4655fa0 fdb5a13664e2ce0ece847f3f5c390e0a11c6645f Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789192997 +0530	commit: update briefing/05-env.md
+fdb5a13664e2ce0ece847f3f5c390e0a11c6645f de585f41fe69337b0f7078bade18d89b891c7b89 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193004 +0530	commit: update briefing/06-frontend.md
+de585f41fe69337b0f7078bade18d89b891c7b89 1effb6258225b3e682314ac304543e920f10636a Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193011 +0530	commit: update briefing/07-known-issues.md
+1effb6258225b3e682314ac304543e920f10636a dd94aa93d19179eea48e99759425a4fd09ed326d Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193018 +0530	commit: update briefing/08-agent-history.md
+dd94aa93d19179eea48e99759425a4fd09ed326d 5cd565e9e7cc3d938ef7c6751bcb5703a55df444 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193025 +0530	commit: update contracts/.env.example
+5cd565e9e7cc3d938ef7c6751bcb5703a55df444 bbeb592a4c96014f1e7b1697278a19928159ac64 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193032 +0530	commit: update contracts/.gitignore
+bbeb592a4c96014f1e7b1697278a19928159ac64 9532978b3be7a2dff52d5c7ae5effff12d47be40 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193039 +0530	commit: update contracts/contracts/MonQuestToken.sol
+9532978b3be7a2dff52d5c7ae5effff12d47be40 22e53e441ce523b5a6eb088020297f25709bd6cb Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193046 +0530	commit: update contracts/contracts/SimpleStorage.sol
+22e53e441ce523b5a6eb088020297f25709bd6cb aedecad84daf0605130287ea137119d3f1f37400 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193053 +0530	commit: update contracts/hardhat.config.ts
+aedecad84daf0605130287ea137119d3f1f37400 6a7f2a40e149d1f0097188644232bfad03635d0c Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193060 +0530	commit: update contracts/package-lock.json
+6a7f2a40e149d1f0097188644232bfad03635d0c 8a3eea920b8b487cb4764139c7e6ad6e4b3544b9 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193067 +0530	commit: update contracts/package.json
+8a3eea920b8b487cb4764139c7e6ad6e4b3544b9 744c6f518c168e2e23d6459d696b5a020c0d893d Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193074 +0530	commit: update contracts/scripts/deploy.ts
+744c6f518c168e2e23d6459d696b5a020c0d893d 3ae0bfe420a4123c4eb4aa13eade677d295a1f61 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193081 +0530	commit: update contracts/scripts/interact.ts
+3ae0bfe420a4123c4eb4aa13eade677d295a1f61 17022f753719aa6bbc7ca3b0b5de06333f8f597c Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193088 +0530	commit: update contracts/test/MonQuestToken.test.ts
+17022f753719aa6bbc7ca3b0b5de06333f8f597c 72c4ae3452f4c4b3c55f043c5fdb63bc757efde6 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193095 +0530	commit: update contracts/test/SimpleStorage.test.ts
+72c4ae3452f4c4b3c55f043c5fdb63bc757efde6 bbd8d07afcdd885b69517fea1386b46573ce1013 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193102 +0530	commit: update contracts/tsconfig.json
+bbd8d07afcdd885b69517fea1386b46573ce1013 86572c20f6c305f0482d2c9af46ae19dd938f392 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193108 +0530	commit: update instrumentation.ts
+86572c20f6c305f0482d2c9af46ae19dd938f392 c405f0f21aa8173edaebfdbaa6f8a6a4006704aa Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193115 +0530	commit: update next.config.mjs
+c405f0f21aa8173edaebfdbaa6f8a6a4006704aa 7e0e2a1c717c3e3da43e9a6f70c80cf70f7e5177 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193122 +0530	commit: update package-lock.json
+7e0e2a1c717c3e3da43e9a6f70c80cf70f7e5177 6362d72ded5024db85971c8e701fe3e6057da09c Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193129 +0530	commit: update package.json
+6362d72ded5024db85971c8e701fe3e6057da09c c392b0b77dec136f721fed51872e800831072dd5 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193136 +0530	commit: update public/manifest.json
+c392b0b77dec136f721fed51872e800831072dd5 1227663e1ded7a689a55d3432dbbc40ff8278197 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193143 +0530	commit: update push_script.sh
+1227663e1ded7a689a55d3432dbbc40ff8278197 2ece4502ab3d317c5d24f54aba0593e660c0b4d0 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193150 +0530	commit: update scripts/chain-local.sh
+2ece4502ab3d317c5d24f54aba0593e660c0b4d0 325a73f63e7ba9bd3cda6eccfd9875148a72f896 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193157 +0530	commit: update scripts/chain-stop.sh
+325a73f63e7ba9bd3cda6eccfd9875148a72f896 fd575adbf074f81401cdfc04a82a1bf0656629d7 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193164 +0530	commit: update scripts/demo-evm.ts
+fd575adbf074f81401cdfc04a82a1bf0656629d7 b057157cd36f516c6f42413103a561c46edae618 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193171 +0530	commit: update scripts/demo-solana.ts
+b057157cd36f516c6f42413103a561c46edae618 19114560a7445e25c874f59c8ee3e6beadd387b4 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193178 +0530	commit: update scripts/demo.ts
+19114560a7445e25c874f59c8ee3e6beadd387b4 50e331ee85ac6bb3c9df6836527675b59d225b30 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193184 +0530	commit: update solana-program/.env.example
+50e331ee85ac6bb3c9df6836527675b59d225b30 01e7df990280d467183e3ad1f4a4b302ae82ed5d Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193191 +0530	commit: update solana-program/.gitignore
+01e7df990280d467183e3ad1f4a4b302ae82ed5d f12f2ac320e27757cfdeef922f645f071878202d Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193198 +0530	commit: update solana-program/Anchor.toml
+f12f2ac320e27757cfdeef922f645f071878202d e4539ba3c8c5e431ef43ecd4abdb146757ca3f63 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193205 +0530	commit: update solana-program/README.md
+e4539ba3c8c5e431ef43ecd4abdb146757ca3f63 e7f829b335c621c4b1ed243ebee03b62c68663a5 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193212 +0530	commit: update solana-program/app/monquest_counter.ts
+e7f829b335c621c4b1ed243ebee03b62c68663a5 9a00e911596f2edefa47017d3d5d1abb689978d5 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193218 +0530	commit: update solana-program/migrations/deploy.ts
+9a00e911596f2edefa47017d3d5d1abb689978d5 1421afe386432aa81cbef2729e605ada5db8f0b4 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193226 +0530	commit: update solana-program/package-lock.json
+1421afe386432aa81cbef2729e605ada5db8f0b4 2638554d429c3fb445df28c029efa215b3e7d52d Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193233 +0530	commit: update solana-program/package.json
+2638554d429c3fb445df28c029efa215b3e7d52d 593c26f40b9da0478b4edbf7c546445029d643b0 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193240 +0530	commit: update solana-program/programs/monquest-counter/Cargo.toml
+593c26f40b9da0478b4edbf7c546445029d643b0 f27faa174978cf2ffe6b11fcd83fb68b947e9e82 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193246 +0530	commit: update solana-program/programs/monquest-counter/src/lib.rs
+f27faa174978cf2ffe6b11fcd83fb68b947e9e82 4f7a8fce76e5744185a7187079aa1087d50a669e Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193253 +0530	commit: update solana-program/tests/counter.ts
+4f7a8fce76e5744185a7187079aa1087d50a669e e3cb12d1a92fe5d2c5b995730e2a10da0d4c62a7 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193260 +0530	commit: update solana-program/tsconfig.json
+e3cb12d1a92fe5d2c5b995730e2a10da0d4c62a7 8d53f8b621f68e1855e47f890de679712797c837 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193267 +0530	commit: update supabase/README.md
+8d53f8b621f68e1855e47f890de679712797c837 ef16df0950fd2fc292ccc626959dc4774391bf55 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193274 +0530	commit: update supabase/migrations/001_schema.sql
+ef16df0950fd2fc292ccc626959dc4774391bf55 a8c27073db5406633c07235c45a5545025fa9ed8 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193283 +0530	commit: update supabase/migrations/002_user_id.sql
+a8c27073db5406633c07235c45a5545025fa9ed8 59ff8538239ea964efbdcf83226458b73692625a Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193290 +0530	commit: update supabase/migrations/003_ai_review.sql
+59ff8538239ea964efbdcf83226458b73692625a 307c2d39c5f20a1a12dc1b60a0a69e215f0378c4 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193297 +0530	commit: update supabase/migrations/004_winner.sql
+307c2d39c5f20a1a12dc1b60a0a69e215f0378c4 bcd9e198e7bd6c85e60034176e93bcb894b03ad2 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193304 +0530	commit: update supabase/migrations/005_pending_bounties.sql
+bcd9e198e7bd6c85e60034176e93bcb894b03ad2 5cd4a98cf5f2a0bcc0cbac8c1512bb9d4f0b9b9e Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193310 +0530	commit: update tailwind.config.ts
+5cd4a98cf5f2a0bcc0cbac8c1512bb9d4f0b9b9e 83c3ec27739f4d1484f72e48fdace2bdfebed509 Yuvraj Singh <yuvraj@Yuvrajs-MacBook-Air-2.local> 1789193317 +0530	commit: update tsconfig.json
